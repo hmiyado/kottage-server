@@ -31,7 +31,7 @@ object Dependencies {
     }
 
     object PostgreSql {
-        private const val version = "42.2.2"
+        private const val version = "42.3.1"
         const val core = "org.postgresql:postgresql:$version"
     }
 
@@ -66,7 +66,7 @@ object Dependencies {
     }
 
     object Mockk {
-        private const val version = "1.12.0"
+        private const val version = "1.12.1"
         const val core = "io.mockk:mockk:$version"
     }
 }
