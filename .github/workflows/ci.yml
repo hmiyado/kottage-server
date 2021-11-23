@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  run_test:
+    name: Run Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Prepare env
+        run: |
+          mv .ci.env .env
+          mv .ci.db-env .db-env
+
+      - name: Run Server
+        run: sh scripts/run-on-docker.sh
+
+      - name: Run Test
+        run: ./gradlew test
