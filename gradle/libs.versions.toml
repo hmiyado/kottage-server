@@ -33,7 +33,7 @@ koinKtor = { module = "io.insert-koin:koin-ktor", version.ref = "koin" }
 testKoinTest = { module = "io.insert-koin:koin-test", version.ref = "koin" }
 postgreSql = { module = "org.postgresql:postgresql", version = "42.5.0" }
 mysql = { module = "mysql:mysql-connector-java", version = "8.0.30" }
-flyway = { module = "org.flywaydb:flyway-core", version = "8.0.4" }
+flyway = { module = "org.flywaydb:flyway-core", version = "9.2.2" }
 redis = { module = "redis.clients:jedis", version = "4.2.3" }
 kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.12.0" }
 testJunit = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.9.0" }
