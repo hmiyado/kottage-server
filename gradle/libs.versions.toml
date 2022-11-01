@@ -1,7 +1,7 @@
 # https://docs.gradle.org/current/userguide/platforms.html
 [versions]
 koin = "3.2.2"
-kotest = "5.5.2"
+kotest = "5.5.3"
 ktor = "2.1.2"
 exposed = "0.40.1"
 flyway = "9.6.0"
