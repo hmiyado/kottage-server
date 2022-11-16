@@ -10,7 +10,7 @@ kotlinJvmTarget = "11"
 
 [libraries]
 logback = { module = "ch.qos.logback:logback-classic", version = "1.4.4" }
-janio = { module = "org.codehaus.janino:janino", version = "3.1.8" }
+janio = { module = "org.codehaus.janino:janino", version = "3.1.9" }
 ktorServerNetty = { module = "io.ktor:ktor-server-netty", version.ref = "ktor" }
 ktorTest = { module = "io.ktor:ktor-server-tests", version.ref = "ktor" }
 ktorAuth = { module = "io.ktor:ktor-server-auth", version.ref = "ktor" }
