@@ -44,7 +44,7 @@ testKotestJson = { module = "io.kotest:kotest-assertions-json", version.ref = "k
 testKotestDataTest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
 testKotestKoin = { module = "io.kotest.extensions:kotest-extensions-koin", version = "1.1.0" }
 testMockk = { module = "io.mockk:mockk", version = "1.13.3" }
-testKarate = { module = "com.intuit.karate:karate-junit5", version = "1.3.0" }
+testKarate = { module = "com.intuit.karate:karate-junit5", version = "1.3.1" }
 
 [bundles]
 buildSrc = ["kotlinpoet"]
