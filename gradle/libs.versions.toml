@@ -13,8 +13,8 @@ kotlinJvmTarget = "11"
 [libraries]
 logback = { module = "ch.qos.logback:logback-classic", version = "1.4.5" }
 janio = { module = "org.codehaus.janino:janino", version = "3.1.9" }
-javaJwt = { module = "com.auth0:java-jwt", version = "4.2.1" }
-jwksRsaJava = { module = "com.auth0:jwks-rsa", version = "0.21.2" }
+javaJwt = { module = "com.auth0:java-jwt", version = "4.2.2" }
+jwksRsaJava = { module = "com.auth0:jwks-rsa", version = "0.21.3" }
 ktorServerNetty = { module = "io.ktor:ktor-server-netty", version.ref = "ktor" }
 ktorTest = { module = "io.ktor:ktor-server-tests", version.ref = "ktor" }
 ktorAuth = { module = "io.ktor:ktor-server-auth", version.ref = "ktor" }
