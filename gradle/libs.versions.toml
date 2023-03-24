@@ -1,7 +1,7 @@
 # https://docs.gradle.org/current/userguide/platforms.html
 [versions]
 # https://github.com/InsertKoinIO/koin#latest-version---maven-central
-koin = "3.3.3"
+koin = "3.4.0"
 koinKtor = "3.4.0"
 kotest = "5.5.5"
 ktor = "2.2.4"
