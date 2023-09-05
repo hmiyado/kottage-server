@@ -10,7 +10,7 @@ jobs:
       shouldRunTest: ${{ steps.shouldRunTest.outputs.shouldRunTest }}
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Check should run test
@@ -37,7 +37,7 @@ jobs:
         run: |
           echo "shouldRunTest=${{ needs.check_files.outputs.shouldRunTest }}"
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # https://github.com/actions/setup-java
       - uses: actions/setup-java@v3
         with:
