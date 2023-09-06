@@ -20,9 +20,9 @@ jobs:
           TEST_TARGET_FILE_COUNT="$(git diff --name-only "$BASE_SHA" | grep -cvE '^.github|^infra|README.md')" || true
           echo "TEST_TARGET_FILE_COUNT=${TEST_TARGET_FILE_COUNT}"
           if [ "${TEST_TARGET_FILE_COUNT}" -eq 0 ]; then
-            echo "{shouldRunTest}={false}" >> $GITHUB_OUTPUT
+            echo "{shouldRunTest}={false}" >> "$GITHUB_OUTPUT"
           else
-            echo "{shouldRunTest}={true}" >> $GITHUB_OUTPUT
+            echo "{shouldRunTest}={true}" >> "$GITHUB_OUTPUT"
           fi
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
