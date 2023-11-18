@@ -41,7 +41,7 @@ mysql = { module = "mysql:mysql-connector-java", version = "8.0.33" }
 flyway = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
 flywayMysql = { module = "org.flywaydb:flyway-mysql", version.ref = "flyway" }
 redis = { module = "redis.clients:jedis", version = "5.0.2" }
-kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.14.2" }
+kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.15.0" }
 testJunit = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.10.1" }
 testKotestJUnit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 testKotestJson = { module = "io.kotest:kotest-assertions-json", version.ref = "kotest" }
