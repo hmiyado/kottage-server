@@ -7,7 +7,7 @@ kotest = "5.8.0"
 ktor = "2.3.7"
 exposed = "0.45.0"
 flyway = "10.4.0"
-kotlin = "1.9.21"
+kotlin = "1.9.22"
 kotlinJvmTarget = "11"
 
 [libraries]
