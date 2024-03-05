@@ -6,7 +6,7 @@ koinKtor = "3.5.3"
 kotest = "5.8.0"
 ktor = "2.3.9"
 exposed = "0.48.0"
-flyway = "10.8.1"
+flyway = "10.9.0"
 kotlin = "1.9.22"
 kotlinJvmTarget = "11"
 
