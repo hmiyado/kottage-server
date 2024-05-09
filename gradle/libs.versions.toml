@@ -3,7 +3,7 @@
 # https://github.com/InsertKoinIO/koin#latest-version---maven-central
 koin = "3.5.6"
 koinKtor = "3.5.6"
-kotest = "5.8.1"
+kotest = "5.9.0"
 ktor = "2.3.11"
 exposed = "0.50.1"
 flyway = "10.12.0"
