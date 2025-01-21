@@ -2,7 +2,7 @@
 [versions]
 # https://github.com/InsertKoinIO/koin#latest-version---maven-central
 koin = "4.0.1"
-koinKtor = "4.0.1"
+koinKtor = "4.0.2"
 kotest = "5.9.1"
 ktor = "3.0.3"
 exposed = "0.58.0"
