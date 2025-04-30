@@ -40,7 +40,7 @@ postgreSql = { module = "org.postgresql:postgresql", version = "42.7.5" }
 mysql = { module = "mysql:mysql-connector-java", version = "8.0.33" }
 flyway = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
 flywayMysql = { module = "org.flywaydb:flyway-mysql", version.ref = "flyway" }
-redis = { module = "redis.clients:jedis", version = "5.2.0" }
+redis = { module = "redis.clients:jedis", version = "6.0.0" }
 kotlinpoet = { module = "com.squareup:kotlinpoet", version = "2.1.0" }
 testJunit = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.12.2" }
 testKotestJUnit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
