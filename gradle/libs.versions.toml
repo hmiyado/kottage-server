@@ -42,7 +42,7 @@ flyway = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
 flywayMysql = { module = "org.flywaydb:flyway-mysql", version.ref = "flyway" }
 redis = { module = "redis.clients:jedis", version = "6.0.0" }
 kotlinpoet = { module = "com.squareup:kotlinpoet", version = "2.2.0" }
-testJunit = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.13.1" }
+testJunit = { module = "org.junit.jupiter:junit-jupiter-api", version = "5.13.2" }
 testKotestJUnit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 testKotestJson = { module = "io.kotest:kotest-assertions-json", version.ref = "kotest" }
 testKotestDataTest = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
