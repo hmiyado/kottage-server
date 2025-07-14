@@ -4,7 +4,7 @@
 koin = "4.1.0"
 koinKtor = "4.1.0"
 kotest = "5.9.1"
-ktor = "3.2.1"
+ktor = "3.2.2"
 exposed = "0.61.0"
 flyway = "11.10.2"
 kotlin = "2.2.0"
